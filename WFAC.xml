@@ -1,1 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wfac-2020 SYSTEM "wfac.dtd">
+<wfac-2020>
+  <competitor id="c1">
+    <firstname>Fabian</firstname>
+	<lastname>Franz</lastname>
+	<address>
+		<street>Duerre Wiesen 6a</street>
+		<zip>6812</zip>
+		<city>Meiningen</city>
+	</address>
+	<IFAA-Style>
+	  <gender>m</gender>
+      <division>adult</division>
+      <shooting-style>barebow recurve</shooting-style>
+   </IFAA-Style>
+   <role>captain</role>
+  </competitor>
+  
+    <competitor id="c2">
+    <firstname>Christoph</firstname>
+	<lastname>Fritz</lastname>
+	<address>
+		<street>Hofnerfeldweg 49</street>
+		<zip>6812</zip>
+		<city>Frastanz</city>
+	</address>
+	<IFAA-Style>
+	  <gender>m</gender>
+      <division>adult</division>
+      <shooting-style>freestyle unlimited</shooting-style>
+   </IFAA-Style>
+   <role>member</role>
+  </competitor>
 
+
+  <round fieldtype="hunter">
+ 	 <group group-id="g1">
+ 	   <groupmember competitor-id="c1"/>
+ 	   <groupmember competitor-id="c2"/>
+ 	   <groupmember competitor-id="c3"/>
+ 	   <groupmember competitor-id="c4"/>
+ 	   <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group group-id="g2">
+ 	   <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group group-id="g3">
+ 	   <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group> 	
+ 	  
+ 	 <group group-id="g4">
+ 	   <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group>
+  </round>
+  
+   <round fieldtype="field">
+ 	 <group>
+ 	   <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     <target/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+  </round>
+  
+   <round fieldtype="indoor">
+ 	 <group>
+ 	   <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+ 	 
+ 	 <group>
+ 	 <score-card>
+ 	     
+ 	   </score-card>
+ 	 </group>
+  </round>
+  
+  
+  <tournament></tournament>
+  
+  <shooting-style stylename="barebow-recurve" shortcut="BB-R" />
+  <shooting-style stylename="barebow-compound" shortcut="BB-C" />
+  <shooting-style stylename="freestyle limited recurve" shortcut="FS-R" />
+  <shooting-style stylename="freestyle limited comp" shortcut="FS-C"/>
+  <shooting-style stylename="freestyle unlimited" shortcut="FU" />
+  <shooting-style stylename="bowhunter recurve" shortcut="BH-R" />
+  <shooting-style stylename="bowhunter comp" shortcut="BH-C" />
+  <shooting-style stylename="bowhunter limited" shortcut="BL" />
+  <shooting-style stylename="bowhunter unlimited" shortcut="BU" />
+  <shooting-style stylename="traditional recurve bow" shortcut="TR" />
+  <shooting-style stylename="longbow" shortcut="LB" />
+  <shooting-style stylename="historical bow" shortcut="HB" />
+
+
+</wfac-2020>
