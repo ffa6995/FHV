@@ -215,6 +215,26 @@
   <shooting-style stylename="traditional recurve bow" shortcut="TR" />
   <shooting-style stylename="longbow" shortcut="LB" />
   <shooting-style stylename="historical bow" shortcut="HB" />
+  
+  
+  <division div_name="professional_adults" />
+  <division div_name="amateur_seniors" />
+  <division div_name="amateur_veterans" />
+  <division div_name="amateur_adults" />
+  <division div_name="amateur_young_adults" />
+  <division div_name="amateur_juniors" />
+  <division div_name="amateur_cubs" />
+  
+  <round round_type="field"/>
+  <round round_type="hunter"/>
+  <round round_type="animal"/>
+  <round round_type="3d_hunting"/>
+  <round round_type="3d_standard"/>
+  <round round_type="international"/>
+  <round round_type="expert_field"/>
+  <round round_type="flint_indoor"/>
+  <round round_type="ifaa_indoor"/>
+  
 
 
 </wfac-2020>
