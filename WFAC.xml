@@ -60,6 +60,10 @@
  	 </group>
  	 
  	 <group group-id="g2">
+ 	   <groupmember competitor-id="c1"/>
+ 	   <groupmember competitor-id="c2"/>
+ 	   <groupmember competitor-id="c3"/>
+ 	   <groupmember competitor-id="c4"/>
  	   <score-card>
  	     <target/>
  	       <arrow/>
@@ -234,6 +238,7 @@
   <round round_type="expert_field"/>
   <round round_type="flint_indoor"/>
   <round round_type="ifaa_indoor"/>
+  
   
 
 
