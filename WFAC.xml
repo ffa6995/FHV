@@ -11,198 +11,333 @@
 	</address>
 	<IFAA-Style>
 	  <gender>m</gender>
-      <division>adult</division>
+      <division>amateur_adults</division>
       <shooting-style>barebow recurve</shooting-style>
    </IFAA-Style>
-   <role>captain</role>
+   <role>member</role>
   </competitor>
   
-    <competitor id="c2">
+  <competitor id="c2">
     <firstname>Christoph</firstname>
 	<lastname>Fritz</lastname>
 	<address>
 		<street>Hofnerfeldweg 49</street>
-		<zip>6812</zip>
+		<zip>6820</zip>
 		<city>Frastanz</city>
 	</address>
 	<IFAA-Style>
 	  <gender>m</gender>
-      <division>adult</division>
+      <division>amateur_adults</division>
       <shooting-style>freestyle unlimited</shooting-style>
+   </IFAA-Style>
+   <role>captain</role>
+  </competitor>
+  
+  <competitor id="c3">
+    <firstname>Frederick</firstname>
+	<lastname>Zech</lastname>
+	<address>
+		<street>Wingertgasse 13</street>
+		<zip>6714</zip>
+		<city>Nüziders</city>
+	</address>
+	<IFAA-Style>
+	  <gender>m</gender>
+      <division>amateur_adults</division>
+      <shooting-style>freestyle limited recurve</shooting-style>
    </IFAA-Style>
    <role>member</role>
   </competitor>
-
+  
+  <competitor id="c4">
+    <firstname>Fabian</firstname>
+	<lastname>Pfalco</lastname>
+	<address>
+		<street>Landamman-Egger-Straße 3</street>
+		<zip>6820</zip>
+		<city>Frastanz</city>
+	</address>
+	<IFAA-Style>
+	  <gender>m</gender>
+      <division>amateur_adults</division>
+      <shooting-style>historical bow</shooting-style>
+   </IFAA-Style>
+   <role>member</role>
+  </competitor>
+  
 
   <round fieldtype="hunter">
  	 <group group-id="g1">
  	   <groupmember competitor-id="c1"/>
+ 	     <score-card>
+ 	       <target targetid="1">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="2">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="3">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="4">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	   </score-card>
  	   <groupmember competitor-id="c2"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
  	   <groupmember competitor-id="c3"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
  	   <groupmember competitor-id="c4"/>
  	   <score-card>
- 	     <target/>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
- 	     <target/>
+ 	     </target>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
- 	     <target/>
+ 	     </target>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
+ 	     </target>
  	   </score-card>
  	 </group>
- 	 
- 	 <group group-id="g2">
- 	   <groupmember competitor-id="c1"/>
- 	   <groupmember competitor-id="c2"/>
- 	   <groupmember competitor-id="c3"/>
- 	   <groupmember competitor-id="c4"/>
- 	   <score-card>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	   </score-card>
- 	 </group>
- 	 
- 	 <group group-id="g3">
- 	   <score-card>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	   </score-card>
- 	 </group> 	
- 	  
- 	 <group group-id="g4">
- 	   <score-card>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	   </score-card>
- 	 </group>
-  </round>
+   </round>
   
    <round fieldtype="field">
- 	 <group>
+ 	 <group group-id="g1">
+ 	   <groupmember competitor-id="c1"/>
  	   <score-card>
- 	     <target/>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
- 	     <target/>
+ 	     </target>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
- 	     <target/>
+ 	     </target>
+ 	     <target>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
  	       <arrow/>
+ 	     </target>
  	   </score-card>
- 	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     <target/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	   </score-card>
- 	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     
- 	   </score-card>
- 	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     
- 	   </score-card>
- 	 </group>
-  </round>
-  
-   <round fieldtype="indoor">
- 	 <group>
+ 	   <groupmember competitor-id="c2"/>
  	   <score-card>
- 	     
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
+ 	   <groupmember competitor-id="c3"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
+ 	   <groupmember competitor-id="c4"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
  	   </score-card>
  	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     
+   </round>
+   
+   <round fieldtype="animal">
+ 	 <group group-id="g1">
+ 	   <groupmember competitor-id="c1"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
+ 	   <groupmember competitor-id="c2"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
+ 	   <groupmember competitor-id="c3"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	   </score-card>
+ 	   <groupmember competitor-id="c4"/>
+ 	   <score-card>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
+ 	     <target>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	       <arrow/>
+ 	     </target>
  	   </score-card>
  	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     
- 	   </score-card>
- 	 </group>
- 	 
- 	 <group>
- 	 <score-card>
- 	     
- 	   </score-card>
- 	 </group>
-  </round>
+   </round>
   
   
   <tournament></tournament>
