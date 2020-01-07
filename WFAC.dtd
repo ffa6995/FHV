@@ -6,6 +6,7 @@
 	name				CDATA #REQUIRED
 	startdate			
 	enddate
+>
 <!ELEMENT competitor>
 <!ATTLIST competitor
 	competitor id		ID #REQUIRED
@@ -14,10 +15,12 @@
 	address				CDATA #REQUIRED
 	IFAA-Style			CDATA #REQUIRED
 	role				CDATA #REQUIRED
+>
 <!ELEMENT round>
 <!ATTLIST round
 	group				
 	groupmember
+>
 
 
 
