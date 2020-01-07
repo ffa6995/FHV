@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!ELEMENT wfac-2020 (competiror*, >
+<!ELEMENT competitor>
+<ATTLIST competitor
+	competitor id		ID #REQUIRED
+	firstname			CDATA #REQUIRED
+	lastname			CDATA #REQUIRED
+	address				CDATA #REQUIRED
+	IFAA-Style			CDATA #REQUIRED
+	role				CDATA #REQUIRED
+<!ELEMENT round
+
+
 
 
