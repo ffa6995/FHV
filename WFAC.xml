@@ -21,7 +21,6 @@
       <division>amateur_adults</division>
       <shooting-style>barebow recurve</shooting-style>
    </IFAA-Style>
-   <role>member</role>
   </competitor>
   
   <competitor id="c2">
@@ -37,7 +36,6 @@
       <division>amateur_adults</division>
       <shooting-style>freestyle unlimited</shooting-style>
    </IFAA-Style>
-   <role>captain</role>
   </competitor>
   
   <competitor id="c3">
@@ -53,7 +51,6 @@
       <division>amateur_adults</division>
       <shooting-style>freestyle limited recurve</shooting-style>
    </IFAA-Style>
-   <role>member</role>
   </competitor>
   
   <competitor id="c4">
@@ -68,13 +65,13 @@
 	  <gender>m</gender>
       <division>amateur_adults</division>
       <shooting-style>historical bow</shooting-style>
-   </IFAA-Style>
-   <role>member</role>
+    </IFAA-Style>
   </competitor>
   
   <round fieldtype="hunter">
  	 <group group-id="g1">
  	   <groupmember competitor-id="c1"/>
+ 	     <role>captain</role>
  	     <score-card>
  	       <target targetid="1">
  	         <arrow/>
@@ -101,163 +98,182 @@
  	         <arrow/>
  	       </target>
  	   </score-card>
+ 	   
  	   <groupmember competitor-id="c2"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>
+ 	     
  	   <groupmember competitor-id="c3"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>
+ 	     
  	   <groupmember competitor-id="c4"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>>
  	 </group>
    </round>
   
    <round fieldtype="field">
  	 <group group-id="g1">
  	   <groupmember competitor-id="c1"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
+ 	     <role>captain</role>
+ 	     <score-card>
+ 	       <target targetid="1">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="2">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="3">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="4">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
  	   </score-card>
+ 	   
  	   <groupmember competitor-id="c2"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>
+ 	     
  	   <groupmember competitor-id="c3"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>
+ 	     
  	   <groupmember competitor-id="c4"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	     </score-card>>
  	 </group>
    </round>
   
   
-
+  <!-- shooting-style definition -->
   
   <shooting-style stylename="barebow-recurve" shortcut="BB-R" />
   <shooting-style stylename="barebow-compound" shortcut="BB-C" />
@@ -271,6 +287,8 @@
   <shooting-style stylename="traditional recurve bow" shortcut="TR" />
   <shooting-style stylename="longbow" shortcut="LB" />
   <shooting-style stylename="historical bow" shortcut="HB" />
+  
+  <!-- division definition -->
 
   <division div_name="professional_adults" />
   <division div_name="amateur_seniors" />
@@ -279,6 +297,8 @@
   <division div_name="amateur_young_adults" />
   <division div_name="amateur_juniors" />
   <division div_name="amateur_cubs" />
+  
+  <!-- round_type definition -->
   
   <round round_type="field"/>
   <round round_type="hunter"/>
