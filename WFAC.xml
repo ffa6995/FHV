@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wfac-2020 SYSTEM "wfac.dtd">
 <wfac-2020>
+  <tournament>
+    <name>WFAC</name>
+    <startdate>31.07.2020</startdate>
+    <enddate>07.08.2020</enddate>
+    <country>Estonia</country>
+  </tournament>
+
   <competitor id="c1">
     <firstname>Fabian</firstname>
 	<lastname>Franz</lastname>
@@ -248,98 +255,9 @@
  	   </score-card>
  	 </group>
    </round>
-   
-   <round fieldtype="animal">
- 	 <group group-id="g1">
- 	   <groupmember competitor-id="c1"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
- 	   <groupmember competitor-id="c2"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
- 	   <groupmember competitor-id="c3"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
- 	   <groupmember competitor-id="c4"/>
- 	   <score-card>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	     <target>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	       <arrow/>
- 	     </target>
- 	   </score-card>
- 	 </group>
-   </round>
   
   
-  <tournament></tournament>
+
   
   <shooting-style stylename="barebow-recurve" shortcut="BB-R" />
   <shooting-style stylename="barebow-compound" shortcut="BB-C" />
@@ -353,8 +271,7 @@
   <shooting-style stylename="traditional recurve bow" shortcut="TR" />
   <shooting-style stylename="longbow" shortcut="LB" />
   <shooting-style stylename="historical bow" shortcut="HB" />
-  
-  
+
   <division div_name="professional_adults" />
   <division div_name="amateur_seniors" />
   <division div_name="amateur_veterans" />
@@ -372,8 +289,5 @@
   <round round_type="expert_field"/>
   <round round_type="flint_indoor"/>
   <round round_type="ifaa_indoor"/>
-  
-  
-
 
 </wfac-2020>
