@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT wfac-2020 (competiror*, >
+<!ELEMENT wfac-2020 (tournament+, competitor*, round*>
+<!ELEMENT tournament>
+<!ATTLIST tournament
+	name				CDATA #REQUIRED
+	startdate			
+	enddate
 <!ELEMENT competitor>
-<ATTLIST competitor
+<!ATTLIST competitor
 	competitor id		ID #REQUIRED
 	firstname			CDATA #REQUIRED
 	lastname			CDATA #REQUIRED
 	address				CDATA #REQUIRED
 	IFAA-Style			CDATA #REQUIRED
 	role				CDATA #REQUIRED
-<!ELEMENT round
-
+<!ELEMENT round>
+<!ATTLIST round
+	group				
+	groupmember
 
 
 
