@@ -68,7 +68,7 @@
     </IFAA-Style>
   </competitor>
   
-  <round fieldtype="hunter">
+  <round round_type="hunter">
  	 <group group-id="g1">
  	   <groupmember competitor-id="c1"/>
  	     <role>captain</role>

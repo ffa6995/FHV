@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!ELEMENT wfac-2020 (tournament+, competitor*, round*>
-<!ELEMENT tournament>
-<!ATTLIST tournament
-	name				CDATA #REQUIRED
-	startdate			
-	enddate
->
+<!ELEMENT tournament (name, startdate, enddate, country)>
+
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT startdate(#PCDATA)>
+<!ELEMENT enddate(#PCDATA)>
+<!ELEMENT country(#PCDATA)>
+
 <!ELEMENT competitor>
 <!ATTLIST competitor
-	competitor id		ID #REQUIRED
-	firstname			CDATA #REQUIRED
-	lastname			CDATA #REQUIRED
-	address				CDATA #REQUIRED
-	IFAA-Style			CDATA #REQUIRED
-	role				CDATA #REQUIRED
+	id		ID #REQUIRED
 >
-<!ELEMENT round>
+<!ELEMENT firstname(#PCDATA)>
+<!ELEMENT lastname(#PCDATA)>
+<!ELEMENT address (street, zip, city)>
+<!ELEMENT street(#PCDATA)>
+<!ELEMENT zip(#PCDATA)>
+<!ELEMENT city(#PCDATA)>
+
+<!ELEMENT IFAA-Style(gender, division, shooting-style)>
+<!ELEMENT gender(#PCDATA)>
+<!ELEMENT division(#PCDATA)>
+<!ELEMENT shooting-style(#PCDATA)>
+
+<!ELEMENT round(group+)>
 <!ATTLIST round
-	group				
-	groupmember
+	round_type	CDATA #REQUIRED			
 >
-
-
-
+<!ELEMENT group(groupmember+)>
+<!ATTLIST group
+	group-id	ID #REQUIRED
+>
+<!ELEMENT groupmember(role, score-card)>
+<!ATTLIST groupmember
+	competitor-id	IDREF #REQUIRED
+>
+<!ELEMENT role(#PCDATA)>
+<!ELEMENT score-card(target+)>
+<!ELEMENT target(arrow+)>
+<!ATTLIST target
+	targetid	ID #REQUIRED
+>
+<!ELEMENT arrow(#PCDATA)>
