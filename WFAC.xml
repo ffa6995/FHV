@@ -70,244 +70,224 @@
   
   <round round_type="hunter">
  	 <group group-id="g1">
- 	   <groupmember competitor-id="c1"/>
+ 	   <date>31.07.2020</date>
+ 	   <groupmember competitor-id="c1">
  	     <role>captain</role>
  	     <score-card>
- 	       <target targetid="1">
+ 	       <target targetid="t1">
+ 	         <arrow>10</arrow>
+ 	         <arrow>6</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>0</arrow>
+ 	       </target>
+ 	       
+ 	       <target targetid="t2">
+ 	         <arrow>0</arrow>
+ 	         <arrow>8</arrow>
+ 	         <arrow>5</arrow>
+ 	         <arrow>9</arrow>
+ 	       </target>
+ 	       
+ 	       <target targetid="t3">
+ 	         <arrow>10</arrow>
+ 	         <arrow>9</arrow>
+ 	         <arrow>6</arrow>
+ 	         <arrow>7</arrow>
+ 	       </target>
+ 	       
+ 	       <target targetid="t4">
+ 	         <arrow>8</arrow>
+ 	         <arrow>7</arrow>
+ 	         <arrow>3</arrow>
+ 	         <arrow>1</arrow>
+ 	       </target>
+ 	   </score-card>
+ 	   </groupmember>
+ 	   
+ 	   <groupmember competitor-id="c2">
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target targetid="t1">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target targetid="2">
+ 	       <target targetid="t2">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target targetid="3">
+ 	       <target targetid="t3">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target targetid="4">
+ 	       <target targetid="t4">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
  	   </score-card>
- 	   
- 	   <groupmember competitor-id="c2"/>
- 	     <role>member</role>
- 	     <score-card>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	     </score-card>
+ 	   </groupmember>
  	     
- 	   <groupmember competitor-id="c3"/>
+ 	   <groupmember competitor-id="c3">
  	     <role>member</role>
  	     <score-card>
- 	       <target>
+ 	       <target targetid="t1">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target>
+ 	       <target targetid="t2">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target>
+ 	       <target targetid="t3">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	     </score-card>
- 	     
- 	   <groupmember competitor-id="c4"/>
- 	     <role>member</role>
- 	     <score-card>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	     </score-card>>
- 	 </group>
-   </round>
-  
-   <round fieldtype="field">
- 	 <group group-id="g1">
- 	   <groupmember competitor-id="c1"/>
- 	     <role>captain</role>
- 	     <score-card>
- 	       <target targetid="1">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target targetid="2">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target targetid="3">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target targetid="4">
+ 	       <target targetid="t4">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
  	   </score-card>
- 	   
- 	   <groupmember competitor-id="c2"/>
- 	     <role>member</role>
- 	     <score-card>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	     </score-card>
+ 	   </groupmember>
  	     
- 	   <groupmember competitor-id="c3"/>
+ 	   <groupmember competitor-id="c4">
  	     <role>member</role>
  	     <score-card>
- 	       <target>
+ 	       <target targetid="t1">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target>
+ 	       <target targetid="t2">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target>
+ 	       <target targetid="t3">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	     </score-card>
- 	     
- 	   <groupmember competitor-id="c4"/>
- 	     <role>member</role>
- 	     <score-card>
- 	       <target>
+ 	       <target targetid="t4">
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	         <arrow/>
  	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	       <target>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	       </target>
- 	     </score-card>>
+ 	   </score-card>
+ 	   </groupmember>
  	 </group>
    </round>
   
-  
-  <!-- shooting-style definition -->
-  
-  <shooting-style stylename="barebow-recurve" shortcut="BB-R" />
-  <shooting-style stylename="barebow-compound" shortcut="BB-C" />
-  <shooting-style stylename="freestyle limited recurve" shortcut="FS-R" />
-  <shooting-style stylename="freestyle limited comp" shortcut="FS-C"/>
-  <shooting-style stylename="freestyle unlimited" shortcut="FU" />
-  <shooting-style stylename="bowhunter recurve" shortcut="BH-R" />
-  <shooting-style stylename="bowhunter comp" shortcut="BH-C" />
-  <shooting-style stylename="bowhunter limited" shortcut="BL" />
-  <shooting-style stylename="bowhunter unlimited" shortcut="BU" />
-  <shooting-style stylename="traditional recurve bow" shortcut="TR" />
-  <shooting-style stylename="longbow" shortcut="LB" />
-  <shooting-style stylename="historical bow" shortcut="HB" />
-  
-  <!-- division definition -->
-
-  <division div_name="professional_adults" />
-  <division div_name="amateur_seniors" />
-  <division div_name="amateur_veterans" />
-  <division div_name="amateur_adults" />
-  <division div_name="amateur_young_adults" />
-  <division div_name="amateur_juniors" />
-  <division div_name="amateur_cubs" />
-  
-  <!-- round_type definition -->
-  
-  <round round_type="field"/>
-  <round round_type="hunter"/>
-  <round round_type="animal"/>
-  <round round_type="3d_hunting"/>
-  <round round_type="3d_standard"/>
-  <round round_type="international"/>
-  <round round_type="expert_field"/>
-  <round round_type="flint_indoor"/>
-  <round round_type="ifaa_indoor"/>
-
+   <round round_type="field">
+ 	 <group group-id="g2">
+ 	   <date>31.07.2020</date>
+ 	   <groupmember competitor-id="c1">
+ 	     <role>captain</role>
+ 	     <score-card>
+ 	       <target targetid="t1">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t2">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t3">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t4">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	   </score-card>
+ 	   </groupmember>
+ 	   
+ 	   <groupmember competitor-id="c2">
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target targetid="t1">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t2">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t3">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t4">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	   </score-card>
+ 	   </groupmember>
+ 	     
+ 	   <groupmember competitor-id="c4">
+ 	     <role>member</role>
+ 	     <score-card>
+ 	       <target targetid="t1">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t2">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t3">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	       <target targetid="t4">
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	         <arrow/>
+ 	       </target>
+ 	   </score-card>
+ 	   </groupmember>
+ 	 </group>
+   </round>
 </wfac-2020>
