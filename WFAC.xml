@@ -68,6 +68,8 @@
     </IFAA-Style>
   </competitor>
   
+  <!-- arrows wurden nur bei einer Gruppe eingetragen -->
+  
   <round round_type="hunter">
  	 <group group-id="g1">
  	   <date>31.07.2020</date>
@@ -198,7 +200,7 @@
   
    <round round_type="field">
  	 <group group-id="g2">
- 	   <date>31.07.2020</date>
+ 	   <date>02.08.2020</date>
  	   <groupmember competitor-id="c1">
  	     <role>captain</role>
  	     <score-card>
