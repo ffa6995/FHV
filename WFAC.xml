@@ -110,28 +110,28 @@
  	     <role>member</role>
  	     <score-card>
  	       <target targetid="t1">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
+ 	         <arrow>3</arrow>
+ 	         <arrow>5</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>5</arrow>
  	       </target>
  	       <target targetid="t2">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
+ 	         <arrow>10</arrow>
+ 	         <arrow>6</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>0</arrow>
  	       </target>
  	       <target targetid="t3">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
+ 	         <arrow>0</arrow>
+ 	         <arrow>3</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>3</arrow>
  	       </target>
  	       <target targetid="t4">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
+ 	         <arrow>4</arrow>
+ 	         <arrow>4</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>3</arrow>
  	       </target>
  	   </score-card>
  	   </groupmember>
@@ -140,10 +140,10 @@
  	     <role>member</role>
  	     <score-card>
  	       <target targetid="t1">
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
- 	         <arrow/>
+ 	         <arrow>4</arrow>
+ 	         <arrow>100</arrow>
+ 	         <arrow>2</arrow>
+ 	         <arrow>3</arrow>
  	       </target>
  	       <target targetid="t2">
  	         <arrow/>

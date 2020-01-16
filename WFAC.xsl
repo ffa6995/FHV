@@ -54,11 +54,7 @@
             <xsl:value-of select="date"/>
         </h1>
         
-        
-        
-        <h2>
-            <xsl:value-of select="position()"/>. Day, scoring
-        </h2>
+
         <xsl:value-of select="group"/>
         <h2>Group
                 <xsl:variable name="gid" select="@group-id"/>
@@ -72,6 +68,21 @@
             <xsl:value-of select="concat($firstname, ' ', $lastname)"/>
             <a href="#{generate-id()}">(<xsl:value-of select="sum(score-card/target/arrow[./text()>0])"/>)</a>
         </xsl:for-each>
+        
+        <h2>
+            <xsl:value-of select="position()"/>. Day, scoring
+        </h2>         
+            <xsl:for-each select="groupmember">
+                <xsl:sort select="sum(score-card/target/arrow[./text()>0])" order="descending" data-type="number"/>
+                <br/>
+                <xsl:value-of select="position()"/>. 
+                <xsl:variable name ="id" select="@competitor-id"/>
+                <xsl:variable name="firstname" select="//competitor[@id = $id]/firstname"/>
+                <xsl:variable name="lastname" select="//competitor[@id = $id]/lastname"/>
+                <xsl:value-of select="concat($firstname, ' ', $lastname)"/>
+                <a href="#{generate-id()}">(<xsl:value-of select="sum(score-card/target/arrow[./text()>0])"/>)</a>
+           
+            </xsl:for-each>
         
         
     </xsl:template>
